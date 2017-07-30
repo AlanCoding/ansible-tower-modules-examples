@@ -1,0 +1,7 @@
+
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: 'Install tower-cli'
+      pip:
+        name: ansible-tower-cli
